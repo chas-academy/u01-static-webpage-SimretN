@@ -1,0 +1,40 @@
+
+
+.container{
+    background-color: blueviolet;      
+    display: flex;
+    
+}
+.header {
+    flex-grow: 1;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header img {
+    
+    width: 100px;
+    border-radius: 100px;
+}
+
+.main{
+    flex-grow: 3;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.job-title, .course-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:600px ) {
+    
+    .container{
+        flex-direction: column;
+    }
+}
