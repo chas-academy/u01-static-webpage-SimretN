@@ -4,10 +4,7 @@
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=0,1" />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -25,17 +22,17 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" >
   </head>
 
   <body>
-    <div class="container">
+    <div class="wrapper">
       <div class="left_Side">
         <div class="profileText">
           <div class="imgBx">
-            <img width="200em" src="images/logo.png" alt="sss" />
+            <img width="200em" src="/images/logo.png" alt="sss" >
           </div>
-          <h2>Simret Negash<br /><span>Fullstack Developer</span></h2>
+          <h2>Simret Negash<br ><span>Fullstack Developer</span></h2>
         </div>
         <div class="contactInfo">
           <h3 class="title">Contact Info</h3>
@@ -116,21 +113,24 @@
         </div>
         <div>
           <br /><br />
-          <iframe
-            width="360"
-            height="215"
+         <div class="video-container-left">
+          <embed
             src="https://www.youtube.com/embed/8KaJRw-rfn8?si=VYhc7_HcGOJWxWN2"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            wmode="transparent"
+            type="video/mp4"
+            width="100%" 
+            height="100%"
+            allow="autoplay; encrypted-media; picture-in-picture"
             allowfullscreen
-          ></iframe>
-        </div>
+            title="Keyboard Cat"
+          >
+        </div>      </div>
       </div>
 
       <div class="right_Side">
         <div class="about">
           <h2 class="title2">Profile</h2>
-          <p>
+          <p class="profile-description">
             I'm a first-year student deeply passionate about Fullstack
             Development. With a strong foundation in programming and a hunger to
             learn, I'm excited to contribute my skills to innovative web
@@ -146,12 +146,12 @@
           <h2 class="title2">Experience</h2>
           <div class="box">
             <div class="year_company">
-              <h5>2023-2025present</h5>
-              <h5>Chas Achademy</h5>
+              <h5 class="duration">2023-2025present</h5>
+              <h5 class="company">Chas Achademy</h5>
             </div>
             <div class="text">
-              <h4>Jounior fullstack developer</h4>
-              <p>
+              <h4 id="job-title">Jounior fullstack developer</h4>
+              <p id="job-description">
                 I'm a first-year student who loves building websites.I want to
                 work as a Fullstack Developer and I'm looking for an internship
                 or entry-level job. I'm excited to use my skills, learn more,
@@ -226,6 +226,19 @@
               </tr>
             </tbody>
           </table>
+        </div>
+        <br /><br />
+        <div class="video-container-right">
+          <embed
+            src="https://www.youtube.com/embed/8KaJRw-rfn8?si=VYhc7_HcGOJWxWN2"
+            wmode="transparent"
+            type="video/mp4"
+            width="100%" 
+            height="100%"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen
+            title="Keyboard Cat"
+          >
         </div>
       </div>
     </div>
