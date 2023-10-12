@@ -301,7 +301,7 @@ make the two columns stand side by side.
 (iPhone 12 Pro) */
 @media screen and (min-width: 651px) and (max-width: 850px) {
     .wrapper {
-        margin: 5px;       
+        margin: 5px;
     }
     .duration, .company {
         font-size: 1rem;
